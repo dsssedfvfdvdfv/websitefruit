@@ -1,0 +1,22 @@
+.header__cart .cart-dropdown {
+    display: none;
+    position: absolute;
+    top: 60%;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    min-width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+.header__cart:hover .cart-dropdown {
+    display: block;
+}
+
+.checkout-left {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+}
